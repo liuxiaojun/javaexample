@@ -10,17 +10,14 @@ class MyClass {
         height = 4;
     }
     MyClass(int i) {
-        System.out.println("房子高度为 "
-                + i + " 米");
+        System.out.println("房子高度为 " + i + " 米");
         height = i;
     }
     void info() {
-        System.out.println("房子高度为 " + height
-                + " 米");
+        System.out.println("房子高度为 " + height + " 米");
     }
     void info(String s) {
-        System.out.println(s + ": 房子高度为 "
-                + height + " 米");
+        System.out.println(s + ": 房子高度为 "  + height + " 米");
     }
 }
 public class Overloading1 {
